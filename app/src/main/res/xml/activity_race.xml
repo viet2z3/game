@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Nền lặp 1 -->
+    <ImageView
+        android:id="@+id/background1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/road_background" />
+
+    <!-- Nền lặp 2 -->
+    <ImageView
+        android:id="@+id/background2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/road_background" />
+
+    <!-- Xe người chơi -->
+    <ImageView
+        android:id="@+id/playerCar"
+        android:layout_width="64dp"
+        android:layout_height="128dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/car_player" />
+
+</FrameLayout>
